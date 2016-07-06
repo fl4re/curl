@@ -14,9 +14,9 @@ if %TOOLCHAIN% equ msvc2013 (
     exit /b /1
 )
 
-cd curl
+pushd curl
 cd winbuild
 call nmake Makefile.vc mode=static MACHINE=x64 VC=%VCVALUE% ENABLE_WINSSL=no
 
 set PATH=%OLDPATH%
-
+popd
