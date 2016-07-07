@@ -1,0 +1,14 @@
+curl/Makefile
+curl/config.log
+curl/config.status
+curl/curl-config
+curl/libcurl.pc
+curl/libtool
+curl/lib/*
+curl/docs/*
+curl/src/*
+curl/tests/*
+curl/include/*
+curl/packages/*
+curl/builds/*
+curl/winbuild/*.inc
